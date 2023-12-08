@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3372482}
   - component: {fileID: 2348752}
   - component: {fileID: 6560006}
-  - component: {fileID: 2575442296166309469}
-  - component: {fileID: 2231916860835243578}
+  - component: {fileID: 2264195226801089150}
+  - component: {fileID: 1103916367352943380}
   m_Layer: 0
   m_Name: Cube_1x1_extended
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
+  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4858029433296758182}
@@ -108,7 +108,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!54 &2575442296166309469
+--- !u!54 &2264195226801089150
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &2231916860835243578
+--- !u!114 &1103916367352943380
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
