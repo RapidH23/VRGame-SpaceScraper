@@ -10,6 +10,8 @@ public class SpaceOutsideController : MonoBehaviour
     public float forwardSpeed;
     public float sideSpeed;
 
+    private bool wasOn;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +26,19 @@ public class SpaceOutsideController : MonoBehaviour
 
         Vector3 velocity = new Vector3(sideVelocity, 0, forwardVelovity);
         transform.position += velocity * Time.deltaTime;
+
+        if(lever.value != wasOn)
+        {
+            if(lever.value)
+            {
+                AudioManager.instance.Play("Engine");
+            }
+            else
+            {
+                AudioManager.instance.Stop("Engine");
+            }
+        }
+
+        wasOn = lever.value;
     }
 }

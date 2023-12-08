@@ -29,7 +29,7 @@ MonoBehaviour:
       stateEntered: {fileID: 0}
       stateExited: {fileID: 0}
     - stateName: selected
-      stateEntered: {fileID: 8300000, guid: 1988dc4e8f8b1744182950953eb2cd45, type: 3}
+      stateEntered: {fileID: 8300000, guid: aa6583c7f7376274fae600eee6c0e308, type: 3}
       stateExited: {fileID: 0}
     - stateName: activated
       stateEntered: {fileID: 0}
